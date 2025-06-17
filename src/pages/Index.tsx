@@ -135,7 +135,7 @@ const Index = () => {
 
       {/* Enhanced Quick Stats */}
       <section className="py-24 bg-gradient-to-r from-navy-900 via-navy-800 to-navy-900 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23ffffff" fill-opacity="0.05"%3E%3Ccircle cx="30" cy="30" r="2"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-20"></div>
+        <div className="absolute inset-0 opacity-20"></div>
         <div className="max-w-7xl mx-auto px-6 relative">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
             <div className="animate-on-scroll group">
@@ -164,7 +164,7 @@ const Index = () => {
 
       {/* Vision & Mission Section */}
       <section className="py-24 bg-gradient-to-br from-gray-50 to-white relative">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23E2E8F0" fill-opacity="0.3"%3E%3Cpath d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-30"></div>
+        <div className="absolute inset-0 opacity-30"></div>
         <div className="max-w-7xl mx-auto px-6 relative">
           <div className="text-center mb-20 animate-on-scroll">
             <Badge variant="outline" className="mb-6 px-4 py-2 text-sm font-medium border-trust-200 text-trust-700 bg-white shadow-md">
@@ -399,7 +399,7 @@ const Index = () => {
 
       {/* Enhanced CTA Section */}
       <section className="py-24 bg-gradient-to-r from-navy-900 via-navy-800 to-navy-900 text-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23ffffff" fill-opacity="0.05"%3E%3Ccircle cx="30" cy="30" r="2"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-20"></div>
+        <div className="absolute inset-0 opacity-20"></div>
         <div className="max-w-5xl mx-auto px-6 text-center relative">
           <div className="animate-on-scroll">
             <h2 className="text-5xl md:text-6xl font-bold mb-8">
