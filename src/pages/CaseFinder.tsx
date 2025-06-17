@@ -70,9 +70,9 @@ const CaseFinder = () => {
     // Simulate search
     setTimeout(() => {
       if (searchQuery.toLowerCase().includes('420') || searchQuery.toLowerCase().includes('cheating')) {
-        setSearchResults(mockCases.filter(case => 
-          case.relevantSections.some(section => section.includes('420')) ||
-          case.summary.toLowerCase().includes('cheat')
+        setSearchResults(mockCases.filter(caseItem => 
+          caseItem.relevantSections.some(section => section.includes('420')) ||
+          caseItem.summary.toLowerCase().includes('cheat')
         ));
       } else {
         setSearchResults(mockCases);
